@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>days gone by</title>
+<style>
+
+
+
+#flex {
+  display: flex;
+}
+
+#container {
+  max-width: 950px;
+  margin: 0 auto;
+  background-image: url('');
+  padding: 10px;
+}
+
+
+#main {
+  background-color: #fff;
+  background-image: url('');
+  flex: 1;
+  padding: 20px;
+  order: 2;
+  opacity: 1;
+}
+
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  width: 300px;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  top: 0;
+  left: 0;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+#mydiv2 {
+  position: absolute;
+  z-index: 9;
+  width: 300px;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  top: 0;
+  right: 0;
+}
+
+#mydivheader2 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+#mydiv3 {
+  position: absolute;
+  z-index: 9;
+  width: 300px;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  top: 0;
+  right: 0;
+}
+
+#mydivheader3 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+#hiddenletters {
+  width: 100%;
+  padding: 50px 50;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+}
+
+#hiddenletters2 {
+  width: 100%;
+  padding: 50px 50;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+}
+
+#hiddenletters3 {
+  width: 100%;
+  padding: 50px 50;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+}
+
+</style>
+
+<body style="background-image: url('https://64.media.tumblr.com/45cc9f1d2f38672044065f885afcc677/95c081c85e42149c-d8/s1280x1920/2d00e89009cfd8f0ee8798d79bc646b1aca2fcac.png');background-repeat:no-repeat;background-size:100%"> <!--if you want to have a tiled background just remove the "background-repeat:no-repeat" and "background-size:100%" tags :) -->
+
+<marquee behavior=alternate direction=down scrollamount=2 scrolldelay=26 height=584 style='position:absolute; left:46%; top:105px; width:69; height:584px;'><img src=http://dl9.glitter-graphics.net/pub/23/23959j136d25kqa.gif border=0></marquee>
+<marquee behavior=alternate direction=down scrollamount=3 scrolldelay=28 height=680 style='position:absolute; left:81%; top:143px; width:28; height:680px;'><img src=http://dl6.glitter-graphics.net/pub/79/79246d0yv5j2irn.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=19 height=503 style='position:absolute; left:23%; top:42px; width:29; height:503px;'><img src=http://dl5.glitter-graphics.net/pub/91/91415nsh4snencl.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=39 height=551 style='position:absolute; left:21%; top:54px; width:90; height:551px;'><img src=http://dl5.glitter-graphics.net/pub/23/23955lk8x1v43zx.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=47 height=605 style='position:absolute; left:39%; top:135px; width:15; height:605px;'><img src=http://dl2.glitter-graphics.net/pub/73/73722i774usxfsx.gif border=0></marquee>
+<marquee behavior=alternate direction=down scrollamount=2 scrolldelay=26 height=584 style='position:absolute; left:46%; top:105px; width:69; height:584px;'><img src=http://dl9.glitter-graphics.net/pub/23/23959j136d25kqa.gif border=0></marquee>
+<marquee behavior=alternate direction=down scrollamount=3 scrolldelay=28 height=680 style='position:absolute; left:81%; top:143px; width:28; height:680px;'><img src=http://dl6.glitter-graphics.net/pub/79/79246d0yv5j2irn.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=19 height=503 style='position:absolute; left:23%; top:42px; width:29; height:503px;'><img src=http://dl5.glitter-graphics.net/pub/91/91415nsh4snencl.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=39 height=551 style='position:absolute; left:21%; top:54px; width:90; height:551px;'><img src=http://dl5.glitter-graphics.net/pub/23/23955lk8x1v43zx.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=47 height=605 style='position:absolute; left:39%; top:135px; width:15; height:605px;'><img src=http://dl2.glitter-graphics.net/pub/73/73722i774usxfsx.gif border=0></marquee>                    
+
+<!--marquee graphics can be deleted or changed. the link to the generator i used is https://www.glitter-graphics.com/generators/falling_objects.php :) -->
+
+<div id="container">
+            <div id="headerArea">
+
+            <div id="flex">
+<div id="main">
+    
+    <h1 style="text-align:center"><strong>memories</strong></h1>
+    <ol start="1999"> <!--change the year to your birth year to build a timeline of significant life events or important memories-->
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li> 
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>  
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>
+  <li>your memories here</li>
+</ol> 
+</div></div></div>
+
+</main>
+
+<div id="mydiv">
+  <div id="mydivheader">to my past self</div>
+  <button onclick="myFunction()">open/close</button>
+
+<div id="hiddenletters" style="display:none">
+<p>write a letter to your past/present/future self in this div. i strongly recommend using two < br > tags to space out your content :) </p>
+</div>
+</div>        
+
+<div id="mydiv2">
+  <div id="mydivheader2">to my present self</div>       
+  <button onclick="myFunction2()">open/close</button>
+
+<div id="hiddenletters2" style="display:none">
+<p>write a letter to your past/present/future self in this div. i strongly recommend using two < br > tags to space out your content :) </p>
+</div>
+</div>
+
+<div id="mydiv3">
+  <div id="mydivheader3">to my future self</div>
+  <button onclick="myFunction3()">open/close</button>
+
+<div id="hiddenletters3" style="display:none">
+<p>write a letter to your past/present/future self in this div. i strongly recommend using two < br > tags to space out your content :) </p></div>
+</div>
+
+<!--javascript starts here!!!!!-->
+
+<script>
+
+dragElement(document.getElementById("mydiv"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+
+</script>
+
+<script>
+
+dragElement(document.getElementById("mydiv2"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script>
+
+<script>
+
+dragElement(document.getElementById("mydiv3"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script>
+
+<script>
+var divs = document.getElementsByTagName('div'); 
+var winWidth = window.innerWidth;
+var winHeight = window.innerHeight;
+
+for ( var i=0; i < divs.length; i++ ) {
+ 	
+    var thisDiv = divs[i];
+    
+    randomTop = getRandomNumber(0, winHeight);
+    randomLeft = getRandomNumber(0, winWidth);
+    
+    thisDiv.style.top = randomTop +"px";
+    thisDiv.style.left = randomLeft +"px";
+    
+}
+
+function getRandomNumber(min, max) {      
+    
+  return Math.random() * (max - min) + min;
+    
+}
+
+</script>
+
+<script>
+
+function myFunction() { 
+  var x = document.getElementById("hiddenletters");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>
+
+<script>
+
+function myFunction2() {
+  var x = document.getElementById("hiddenletters2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>
+
+<script>
+
+function myFunction3() {
+  var x = document.getElementById("hiddenletters3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>   
+
+</body>
+</html>
+
+<!--for any questions or suggestions please use github to contact me.-->
